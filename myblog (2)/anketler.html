@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Anketler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Anketler</h1>
+        <nav>
+            <a href="index.html">Anasayfa</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="anketler.html">Anketler</a>
+            <a href="projeler.html">Projeler</a>
+        </nav>
+    </header>
+    <section id="anketler">
+        <h2>Anketler</h2>
+        <p>Görüşleriniz bizim için çok önemli!</p>
+        <h3>Aktif Anketler</h3>
+        <ul>
+            <li><a href="#anket1">Hakkında Görüşler</a></li>
+            <li><a href="#anket2">Geri Bildirim</a></li>
+            <li><a href="#anket3">İçerik Önerileri</a></li>
+        </ul>
+        <form>
+            <label for="anket">Anket Seçin:</label><br>
+            <select id="anket" name="anket">
+                <option value="proje1">Proje 1 Hakkında Görüşler</option>
+                <option value="websitesi">Web Sitesi Geri Bildirim</option>
+                <option value="icerik">Yeni İçerik Önerileri</option>
+            </select><br>
+            <label for="comments">Görüşleriniz:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+            <h3>Siber Güvenlik Anketi</h3>
+            <label for="soru1">1. Şirketinizin siber güvenlik düzeyi hakkında ne düşünüyorsunuz?</label><br>
+            <input type="text" id="soru1" name="soru1"><br>
+            <label for="soru2">2. Son bir yıl içinde siber güvenlik ihlali yaşadınız mı?</label><br>
+            <select id="soru2" name="soru2">
+                <option value="evet">Evet</option>
+                <option value="hayir">Hayır</option>
+            </select><br>
+            <label for="soru3">3. Siber güvenlik konusunda eğitim aldınız mı?</label><br>
+            <select id="soru3" name="soru3">
+                <option value="evet">Evet</option>
+                <option value="hayir">Hayır</option>
+            </select><br>
+            <label for="soru4">4. En sık kullandığınız siber güvenlik uygulaması nedir?</label><br>
+            <input type="text" id="soru4" name="soru4"><br>
+            <label for="soru5">5. Siber güvenlik stratejileriniz hakkında bilgi verebilir misiniz?</label><br>
+            <textarea id="soru5" name="soru5" rows="4" cols="50"></textarea><br>
+            <label for="soru6">6. Şirketinizde siber güvenlik farkındalığı artırmak için hangi yöntemleri kullanıyorsunuz?</label><br>
+            <textarea id="soru6" name="soru6" rows="4" cols="50"></textarea><br>
